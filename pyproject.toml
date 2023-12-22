@@ -1,0 +1,46 @@
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gelda"
+version = "0.1.0"
+authors = [
+    {"name" = "Krish Kabra", "email" = "kk80@rice.edu"},
+    {"name" = "Kathleen M. Lewis", "email" = "kmlewis@mit.edu"},
+    {"name" = "Guha Balakrishnan", "email" = "guha@rice.edu"}
+]
+readme = "README.md"
+description="GELDA: A generative language annotation framework to reveal visual biases in datasets"
+requires-python=">=3.8"
+dependencies = [
+    "numpy>=1.24.3",
+    "torch>=2.0.1",
+    "torchvision>=0.15.2",
+    "transformers>=4.35.2",
+    "accelerate>=0.25.0",
+    "scipy>=1.24.3",
+    "pandas>=2.0.3",
+    "matplotlib>=3.7.2",
+    "opencv-python>=4.8.0.76",
+    "seaborn>=0.12.2",
+    "openai==0.28.1",
+    "tqdm>=4.66.1",
+    "wrapt-timeout-decorator>=1.4.0"
+]
+
+license = {file = "LICENSE"}
+
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://krishk97.github.io/publication/gelda"
+Repository = "https://github.com/krishk97/gelda"
+
+[tool.setuptools]
+packages = ["gelda"]
