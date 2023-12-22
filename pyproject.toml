@@ -3,7 +3,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "gelda"
-version = "0.1.0"
+version = "0.0.1"
 authors = [
     {"name" = "Krish Kabra", "email" = "kk80@rice.edu"},
     {"name" = "Kathleen M. Lewis", "email" = "kmlewis@mit.edu"},
