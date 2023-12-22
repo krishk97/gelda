@@ -1,5 +1,5 @@
 # GELDA: A generative language annotation framework to reveal visual biases in datasets
-### [Project Page]() | [Paper](https://arxiv.org/abs/2311.18064)
+### [Project Page](https://krishk97.github.io/publication/gelda) | [Paper](https://arxiv.org/abs/2311.18064)
 
 <img src="assets/pipeline_gelda.png">
 
